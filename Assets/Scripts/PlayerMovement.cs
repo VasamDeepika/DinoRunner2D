@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         if(collision.gameObject.tag == "Obstacle")
         {
             animator.SetTrigger("Dead");
-            canvas.gameObject.SetActive(true);
+            //canvas.gameObject.SetActive(true);
         }
     }
     private void Jump()
